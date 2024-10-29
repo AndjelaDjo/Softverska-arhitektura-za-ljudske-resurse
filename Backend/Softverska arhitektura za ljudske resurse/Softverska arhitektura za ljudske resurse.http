@@ -1,0 +1,6 @@
+@Softverska_arhitektura_za_ljudske_resurse_HostAddress = http://localhost:5033
+
+GET {{Softverska_arhitektura_za_ljudske_resurse_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

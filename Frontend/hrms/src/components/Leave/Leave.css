@@ -1,0 +1,80 @@
+.leave-container {
+    margin-left: 265px;
+    width: 1250px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.leave-container h1 {
+    font-size: 24px;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.input-leave {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-leave p {
+    margin: 0 0 5px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.input-leave input {
+    width: 100%;
+    height: 40px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    color: #6a0dad;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.save-leave-button, .check-leave-button {
+    background: linear-gradient(45deg, #6a0dad, #b833ff);
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 120px;
+    height: 35px;
+    border: none;
+}
+
+.save-leave-button:hover, .check-leave-button:hover {
+    background: linear-gradient(45deg, #5a009e, #a624d8);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}

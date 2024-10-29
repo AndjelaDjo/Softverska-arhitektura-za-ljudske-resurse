@@ -1,0 +1,76 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.modal-overlay .modal-content h2 {
+    margin-bottom: 15px;
+}
+.input-data {
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.input-data input {
+    width: 85%; 
+    height: 40px; 
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px; 
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    color:#6a0dad;
+}
+
+
+.save-employee-button {
+    background: linear-gradient(45deg, #6a0dad, #b833ff);
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 85%;
+    height:35px;
+    border-style: none;
+}
+
+.save-employee-button:hover {
+    background: linear-gradient(45deg, #5a009e, #a624d8);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.update-employee-button {
+    background: linear-gradient(45deg, #6a0dad, #b833ff);
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    height:35px;
+    border-style: none;
+    margin-top: 10px;
+}
+
+.update-employee-button:hover {
+    background: linear-gradient(45deg, #5a009e, #a624d8);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

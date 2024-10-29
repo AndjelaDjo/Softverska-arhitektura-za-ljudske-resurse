@@ -1,0 +1,51 @@
+.dashboard-container {
+    margin-left: 250px;
+    width: 1250px;
+    height: 700px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column; /* Dodato za vertikalno raspoređivanje */
+    align-items: flex-start; /* Levo poravnanje */
+    padding: 20px; /* Dodato za unutrašnju marginu */
+}
+
+.dashboard-row {
+    display: flex;
+    justify-content: flex-start; /* Levo poravnanje kartica */
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+.dashboard-card {
+    width: 270px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 0 15px; 
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-top: 20px;
+}
+
+.label {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+} 
+.number {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.dashboard-chart {
+    width: 280px; 
+    height: 280px;
+    align-self: flex-start;
+    margin-left: 55px; 
+    margin-right: 85px; 
+    margin-top:50px;
+}

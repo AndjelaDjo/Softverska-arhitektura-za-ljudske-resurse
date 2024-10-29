@@ -1,0 +1,55 @@
+.department-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.department-card {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    position: relative;
+}
+
+.department-card p {
+    padding: 5px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+.department-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.edit-button,
+.delete-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.2s ease;
+    width:70px;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}

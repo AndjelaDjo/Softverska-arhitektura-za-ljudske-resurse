@@ -1,0 +1,44 @@
+.employee-container {
+    margin-left: 265px;
+    width: 1250px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.employee-container h1 {
+    font-size: 24px;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.add-employee-button {
+    background: linear-gradient(45deg, #6a0dad, #b833ff);
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 130px;
+    border-style: none;
+    height: 35px;
+}
+
+.add-employee-button:hover {
+    background: linear-gradient(45deg, #5a009e, #a624d8);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
